@@ -1,0 +1,21 @@
+[gd_scene format=2]
+
+[node name="Game" type="Node2D"]
+
+[node name="Background" type="Node2D" parent="."]
+editor/display_folded = true
+
+[node name="ColorRect" type="ColorRect" parent="Background"]
+margin_right = 576.0
+margin_bottom = 1024.0
+color = Color( 0.878431, 0.878431, 0.878431, 1 )
+
+[node name="UI" type="Node2D" parent="."]
+
+[node name="Score" type="Node2D" parent="."]
+
+[node name="Buttons" type="Node2D" parent="."]
+
+[node name="Emitters" type="Node2D" parent="."]
+
+[node name="Globals" type="Node2D" parent="."]
